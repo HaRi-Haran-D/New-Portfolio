@@ -66,9 +66,6 @@ export const siteConfig = {
     heroDescription:
       "Designs and builds scalable, production-ready systems with a focus on clean architecture and thoughtful execution. From concept to deployment - structured, efficient, and purposeful.",
     heroHighlights: ["INTERFACE ALCHEMY", "SCROLL SORCERY"],
-    introTagline: "Design. Code. Create.",
-    introHeading: "Creating experiences that go beyond the screen.",
-    introStateLabel: "/ Core State /",
     stickyNav: ["About Me", "Let’s Connect"],
     stickyFooter: ["Engineering with Intent", "Open to Collaborations"],
     stickyTitles: [

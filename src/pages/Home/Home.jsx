@@ -190,29 +190,6 @@ const Home = ({ isPreloaderComplete = false }) => {
           </div>
         </section>
 
-        <section className="about">
-        <div className="container">
-          <div className="about-copy">
-            <TextReveal type="flicker">
-              <p>{siteConfig.home.introTagline}</p>
-            </TextReveal>
-            <TextReveal>
-              <h3>
-                {siteConfig.home.introHeading}
-              </h3>
-            </TextReveal>
-            <div className="about-icon">
-              <BrandIcon />
-            </div>
-          </div>
-        </div>
-        <div className="section-footer light">
-          <TextReveal type="flicker">
-            <p>{siteConfig.home.introStateLabel}</p>
-          </TextReveal>
-        </div>
-      </section>
-
       <Suspense fallback={null}>
         <MarqueeBanner />
       </Suspense>
