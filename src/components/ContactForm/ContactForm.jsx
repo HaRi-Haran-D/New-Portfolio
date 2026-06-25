@@ -73,7 +73,7 @@ const ContactForm = () => {
           <p className="primary sm">{form.eyebrow}</p>
         </div>
         <div className="contact-form-row-copy-item">
-          <p className="primary sm">{form.scene}</p>
+          <p className="primary sm"></p>
         </div>
         <div className="contact-form-row-copy-item">
           <p className="primary sm">{form.copyright}</p>

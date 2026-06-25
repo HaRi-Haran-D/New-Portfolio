@@ -7,7 +7,6 @@ import FAQ from "./pages/FAQ/FAQ";
 
 import NavBar from "./components/NavBar/NavBar";
 import Preloader from "./components/Preloader/Preloader";
-import MouseSpark from "./components/ui/mouse-spark.jsx";
 
 const Home = lazy(routeLoaders["/"]);
 const Work = lazy(routeLoaders["/work"]);
@@ -136,7 +135,6 @@ function App() {
 
   return (
     <>
-      <MouseSpark theme="dark" />
       {!isPreloaderComplete && (
         <Preloader
           onAnimationComplete={handlePreloaderComplete}

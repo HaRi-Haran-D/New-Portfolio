@@ -48,7 +48,7 @@ export const siteConfig = {
     },
     form: {
       eyebrow: "Let’s connect",
-      scene: "(Update — 07)",
+      scene: "",
       copyright: "© 2026",
       title: "Start a Project",
       description:
@@ -74,7 +74,7 @@ export const siteConfig = {
       "This portfolio is a snapshot of the tools, systems, and products I ship.",
     ],
     workHeaderSuffix: "selects",
-    hobbies: ["Systems", "AI", "Web", "Product"],
+    hobbies: ["Backend", "AI", "API's", "Product"],
   },
   about: {
     establishedLabel: "Est",
@@ -103,8 +103,8 @@ export const siteConfig = {
     outroDescription:
       "This space is a running log of experiments, shipping notes, and design instincts tested in the wild.",
     outroTags: [
-      "Frontend",
-      "Motion",
+      "Backend",
+      "API's",
       "Product Thinking",
       "Systems",
       "UI Craft",

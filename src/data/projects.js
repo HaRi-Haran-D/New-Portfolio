@@ -1,10 +1,10 @@
 const projects = [
   {
     id: 1,
-    title: "Meet.AI",
+    title: "Vehicle Assist",
     description:
       "A full-stack AI platform for custom agents and meeting assistance, designed to reduce repetitive follow-up work and keep conversations actionable.",
-    image: "/project/meet.jpeg",
+    image: "/project/VehicleAssist.png",
     githubUrl: "https://github.com/AppajiDheeraj/meetai",
   },
   {

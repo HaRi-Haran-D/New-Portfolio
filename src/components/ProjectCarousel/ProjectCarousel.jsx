@@ -89,8 +89,8 @@ const ProjectCarousel = () => {
                   ).padStart(2, "0")}`}</span>
                 </div>
 
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
+                <h3 className="width-100">{project.title}</h3>
+                <p className="width-100">{project.description}</p>
 
                 <a
                   className="fieldwork-card-link"
@@ -99,7 +99,7 @@ const ProjectCarousel = () => {
                   rel="noreferrer"
                 >
                   <Github size={14} strokeWidth={2.25} aria-hidden="true" />
-                  View on GitHub
+                  Live Demo
                 </a>
               </div>
             </article>
